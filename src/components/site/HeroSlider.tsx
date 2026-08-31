@@ -60,7 +60,7 @@ export default function HeroSlider() {
             {current.description}
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
-            <Link to={current.ctaLink} className="btn-base btn-gold">
+            <Link to={current.ctaLink as "/"} className="btn-base btn-gold">
               {current.ctaText}
             </Link>
             <Link to="/contact" className="btn-base btn-outline-light">
